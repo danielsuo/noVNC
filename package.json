@@ -67,6 +67,10 @@
     "websockify"
   ],
   "browserify": {
-    "transform": ["babelify"]
+    "transform": [
+      ["babelify", {
+        "presets": ["es2015"]
+      }]
+    ]
   }
 }
