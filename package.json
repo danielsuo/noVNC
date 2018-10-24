@@ -66,6 +66,7 @@
     "novnc",
     "websockify"
   ],
+  "main": "core/rfb.js",
   "browserify": {
     "transform": [
       ["babelify", {
