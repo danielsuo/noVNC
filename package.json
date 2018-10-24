@@ -65,5 +65,8 @@
     "rfb",
     "novnc",
     "websockify"
-  ]
+  ],
+  "browserify": {
+    "transform": ["babelify"]
+  }
 }
