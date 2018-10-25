@@ -70,7 +70,7 @@
   "browserify": {
     "transform": [
       ["babelify", {
-        "presets": ["es2015"]
+        "presets": ["@babel/preset-env"]
       }]
     ]
   }
